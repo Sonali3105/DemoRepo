@@ -54,4 +54,11 @@ public class MavenTest
 		Assert.assertEquals(2, a/b);
 	}
 	
+	@Test
+	public  void mul()
+	{
+		System.out.println("Multiply:");
+		int a=40,b=20;
+		Assert.assertEquals(800, a*b);
+	}
 }
